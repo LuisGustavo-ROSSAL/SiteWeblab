@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Form-contato</title>
+    <link link rel="stylesheet" href="css/styles.css">
+</head>
+ 
+<body>
+    <button id="btnToggle">☀️</button>
+       <button id="btnAcessibilidade" aria-label="Alternar modo de acessibilidade">♿</button>
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="Forms.html">Contato</a>
+    </nav>
+  </header>
+  <div class="container";>
+    <div class="form-wrapper">
+      <h1 class="form-title">Formulário de Contato</h1>
+      <form id="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+  </div>
+  <script src="JS/JavaScript.js"></script>
+
+
+</body>
+</html>
